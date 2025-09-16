@@ -1,0 +1,14 @@
+h1{
+    font-family: Lucida Console, monospace;
+}
+
+p{
+    font-family: Calibri, serif;
+}
+
+table, th, td {
+   border: 1px solid black;
+    border-style: groove;
+    border-color:darkblue;
+    border-spacing: 10px;
+}
