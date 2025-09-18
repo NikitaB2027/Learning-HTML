@@ -42,11 +42,34 @@
             <td>40</td>
      </table>
 
-     <h2>Homework I have left to do:</h2>
+     <h2>Shopping List:</h2>
      <ul style="list-style-type:circle;">
-        <li>Weaving English Essay</li>
-        <li>Make a poster for GWC</li>
-        <li>Make a plan for my film video</li>
+        <li>Eggs</li>
+        <li>Bananas</li>
+        <li>Flour</li>
+        <li>Sugar</li>
+        <li>Baking Powder</li>
+        <li>Chocolate Chips</li>
      </ul>
+
+     <form action="/action_page.php" target="_blank" method="get">
+        <label for="cname">Class Name:</label><br>
+        <input type="text" id="cname" name="cname"><br>
+        <label for="tname">Teacher Name:</label><br>
+        <input type="text" id="tname" name="tname"><br>
+        <label for="sname">Subject:</label><br>
+        <select id="sname" name="sname">
+            <option value="Math">Math</option>
+            <option value="Biology">Biology</option>
+            <option value="Comp Sci">Comp Sci</option>
+            <option value="English">English</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Filmmaking">Filmmaking</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+     </form>
+
+     <button type="button" onclick="alert(new Date())">Date</button>
+
      
 </body>
