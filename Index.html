@@ -1,5 +1,6 @@
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning HTML</title>
     <link rel="stylesheet" href="styles.css">
      <link rel="icon" type="dino/png" href="dino.png">
@@ -9,18 +10,18 @@
     p {color: azure;}
 </style>
 <body style="background-color:rgb(140, 170, 233)"> 
-    <h1 style="color:aliceblue">My First HTML Page</h1>
-    <p>By: Nikita Baruah</p>
-    <a href="https://en.wikipedia.org/wiki/Dinosaur">Wikipedia page on dinosaurs!</a>
+    <h1 style="font-size:10vw;color:aliceblue">My First HTML Page</h1>
+    <p style="font-size:6vw">By: Nikita Baruah</p>
+    <a style="font-size:3vw;" href="https://en.wikipedia.org/wiki/Dinosaur">Wikipedia page on dinosaurs!</a>
     <br>
     <br>
-    <img src="waking up.jpg" alt="Before Comp Sci class, I woke up at 6:00 AM." width="400" height="267">
-    <p>I am <sup><ins>so</ins></sup> <em>excited</em> to learn <b>web development</b> <mark>this semester!</mark></p>
+    <img src="waking up.jpg" alt="Before Comp Sci class, I woke up at 6:00 AM." style="width:75%;height:auto;">
+    <p style="font-size:3vw;">I am <sup><ins>so</ins></sup> <em>excited</em> to learn <b>web development</b> <mark>this semester!</mark></p>
     <!-- I added a super script and underline to emphasize so, and emphasis on excited cuz I'm really excited.
      Also, web development was bolded bcz i'm emphasizing what we're learning. Lastly I marked this semester
      so people know when I'm learning web development-->
 
-     <table style="height: 20%">
+    <table style="height: 20%; font-size:3vw;">
         <tr>
             <th style="width: 50%">TV Show</th>
             <th style="width: 30%">Genre</th>
@@ -40,10 +41,10 @@
             <td>Never Have I Ever</td>
             <td>Drama</td>
             <td>40</td>
-     </table>
+    </table>
 
-     <h2>Shopping List:</h2>
-     <ul style="list-style-type:circle;">
+     <h2 style="font-size:4vw;">Shopping List:</h2>
+     <ul style="list-style-type:circle; font-size:2vw;">
         <li>Eggs</li>
         <li>Bananas</li>
         <li>Flour</li>
@@ -52,13 +53,13 @@
         <li>Chocolate Chips</li>
      </ul>
 
-     <form action="/action_page.php" target="_blank" method="get">
+     <form action="/action_page.php" target="_blank" method="get" style="font-size:3vw;">
         <label for="cname">Class Name:</label><br>
         <input type="text" id="cname" name="cname"><br>
         <label for="tname">Teacher Name:</label><br>
         <input type="text" id="tname" name="tname"><br>
         <label for="sname">Subject:</label><br>
-        <select id="sname" name="sname">
+        <select id="sname" name="sname" style="font-size:1.5vw;">
             <option value="Math">Math</option>
             <option value="Biology">Biology</option>
             <option value="Comp Sci">Comp Sci</option>
@@ -66,10 +67,14 @@
             <option value="Spanish">Spanish</option>
             <option value="Filmmaking">Filmmaking</option>
         </select><br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" style="font-size:2vw;">
      </form>
 
-     <button type="button" onclick="alert(new Date())">Date</button>
+     <button type="button" onclick="alert(new Date())">Date</button><br><br><br>
+
+     <audio controls autoplay loop>
+        <source src="Back To Me.mp3" type="audio/mp3">
+     </audio>
 
      
 </body>
