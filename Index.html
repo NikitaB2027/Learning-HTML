@@ -2,14 +2,14 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning HTML</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" >
      <link rel="icon" type="dino/png" href="dino.png">
 </head>
 
 <style>
     p {color: azure;}
 </style>
-<body style="background-color:rgb(140, 170, 233)"> 
+<body> 
     <h1 style="font-size:10vw;color:aliceblue">My First HTML Page</h1>
     <p style="font-size:6vw">By: Nikita Baruah</p>
     <a style="font-size:3vw;" href="https://en.wikipedia.org/wiki/Dinosaur">Wikipedia page on dinosaurs!</a>
@@ -44,7 +44,7 @@
     </table>
 
      <h2 style="font-size:4vw;">Shopping List:</h2>
-     <ul style="list-style-type:circle; font-size:2vw;">
+     <ul style="font-size:2vw;">
         <li>Eggs</li>
         <li>Bananas</li>
         <li>Flour</li>
@@ -53,11 +53,11 @@
         <li>Chocolate Chips</li>
      </ul>
 
-     <form action="/action_page.php" target="_blank" method="get" style="font-size:3vw;">
+     <form action="/action_page.php" target="_blank" method="get" style="font-size:3vw; text-align:center;">
         <label for="cname">Class Name:</label><br>
-        <input type="text" id="cname" name="cname"><br>
+        <input type="text" id="cname" name="cname"><br><br>
         <label for="tname">Teacher Name:</label><br>
-        <input type="text" id="tname" name="tname"><br>
+        <input type="text" id="tname" name="tname"><br><br>
         <label for="sname">Subject:</label><br>
         <select id="sname" name="sname" style="font-size:1.5vw;">
             <option value="Math">Math</option>
@@ -70,7 +70,7 @@
         <input type="submit" value="Submit" style="font-size:2vw;">
      </form>
 
-     <button type="button" onclick="alert(new Date())">Date</button><br><br><br>
+     <button type="button" onclick="alert(new Date())" style="font-size:200%; text-align:center; padding: 8;">Date</button><br><br><br>
 
      <audio controls autoplay loop>
         <source src="Back To Me.mp3" type="audio/mp3">
